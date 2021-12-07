@@ -48,6 +48,7 @@ RANDOM_SEED = 1998
 np.random.seed(RANDOM_SEED)  # For reproduction, fix the random seed.
 
 
+print('Start running')
 # Load TE process data
 normal_data = load_data('TE_data/d00.dat').T
 normal_data_validate = load_data('TE_data/d00_te.dat')
@@ -113,3 +114,4 @@ print('The average FAR and MDR of ODBS are {:.3f}% and {:.3f}%.'.format(100*np.m
                                                                         100*np.mean(ODBS_results, axis=0)[1]))
 
 print('The total time of training and testing is:{:.3f}s.'.format(time.time()-start_time))
+print('End')
