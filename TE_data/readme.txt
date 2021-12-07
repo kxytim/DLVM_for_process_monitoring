@@ -76,4 +76,3 @@ vector at a particular time instant is given by
 XMV(n) is the n-th manipulated variable.
 
 
-       
