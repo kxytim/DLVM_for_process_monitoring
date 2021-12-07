@@ -21,7 +21,7 @@ Bayesian_Fusion.py: the proposed Bayesian fusion strategy to integrate the infor
 
 DPI_monitor_TE.py: process monitoring for TE process.
 
-**For test, please execute:**
+**For a fast test, please execute:**
 
 ```python DPI_monitor_TE.py```
 
@@ -39,6 +39,6 @@ The average FAR and MDR of DB_SPE_I are 2.708% and 18.476%.
 
 The average FAR and MDR of ODBS are 3.214% and 16.738%.
 
-The total time of training and testing is:86.189s.
+The total time of training and testing is: 87.223s.
 
 End

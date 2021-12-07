@@ -113,5 +113,5 @@ print('The average FAR and MDR of DB_SPE_I are {:.3f}% and {:.3f}%.'.format(100*
 print('The average FAR and MDR of ODBS are {:.3f}% and {:.3f}%.'.format(100*np.mean(ODBS_results, axis=0)[0],
                                                                         100*np.mean(ODBS_results, axis=0)[1]))
 
-print('The total time of training and testing is:{:.3f}s.'.format(time.time()-start_time))
+print('The total time of training and testing is: {:.3f}s.'.format(time.time()-start_time))
 print('End')
