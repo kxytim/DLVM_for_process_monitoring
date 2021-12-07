@@ -5,7 +5,7 @@ Source code of the paper "Deep Learning of Latent Variable Models for Industrial
 If you use this code in your work, please cite the above paper. Thank you!
 
 @author: Xiangyin Kong
-@github account: kxytim
+@github account: kxytim, https://github.com/kxytim
 """
 
 import numpy as np

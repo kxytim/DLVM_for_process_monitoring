@@ -44,7 +44,7 @@ MU = 1.3
 ETA = 0.01
 PAST_Y_SAMPLES = 5
 
-RANDOM_SEED = 1998
+RANDOM_SEED = 0
 np.random.seed(RANDOM_SEED)  # For reproduction, fix the random seed.
 
 
