@@ -7,7 +7,7 @@ First author: Xiangyin Kong
 
 Corresponding author: Prof. Zhiqiang Ge (Google Scholar: https://scholar.google.com/citations?user=g_EMkuMAAAAJ&hl=zh-CN)
 
-**If you use this code in your work, please cite the above paper. Thank you!**
+**If the paper or the code is helpful to your work, please cite the above paper. Thank you!**
 
 @author: Xiangyin Kong
 
@@ -21,7 +21,7 @@ deep_PCA_ICA.py: the proposed deep PCA-ICA model.
 
 Bayesian_Fusion.py: the proposed Bayesian fusion strategy to integrate the information at different layers.
 
-DPI_monitor_TE.py: process monitoring for TE process.
+DPI_monitor_TE.py: use the proposed model to monitor TE process.
 
 **For a fast test, please execute:**
 

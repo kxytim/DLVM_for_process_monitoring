@@ -52,11 +52,11 @@ print('Start running')
 # Load TE process data
 normal_data = load_data('TE_data/d00.dat').T
 normal_data_validate = load_data('TE_data/d00_te.dat')
-fault_mode = list()
+fault_mode = np.zeros((21, 960, 52))
 for fault_num in range(1, 10):
-    fault_mode.append(load_data('TE_data/d0{}_te.dat'.format(fault_num)))
+    fault_mode[fault_num-1] = load_data('TE_data/d0{}_te.dat'.format(fault_num))
 for fault_num in range(10, 22):
-    fault_mode.append(load_data('TE_data/d{}_te.dat'.format(fault_num)))
+    fault_mode[fault_num-1] = load_data('TE_data/d{}_te.dat'.format(fault_num))
 
 start_time = time.time()
 # Build DPI model for monitoring TE process
