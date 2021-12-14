@@ -1,7 +1,7 @@
 # DLVM_for_process_monitoring
 Source code of the paper "Deep Learning of Latent Variable Models for Industrial Process Monitoring".
 
-"DOI: 10.1109/TII.2021.3093386" "https://ieeexplore.ieee.org/document/9468377"
+"DOI: 10.1109/TII.2021.3134251" "https://ieeexplore.ieee.org/document/9647968"
 
 First author: Xiangyin Kong
 
