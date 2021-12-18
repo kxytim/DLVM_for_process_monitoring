@@ -44,3 +44,7 @@ The average FAR and MDR of ODBS are 3.333% and 16.702%.
 The total time of training and testing is: 80.858s.
 
 End
+
+**If we keep all hyperparameters unchanged and only increase the number of layers, the relationship between the average MDR and FAR and the number of layers is shown in the following figure:**
+
+![img_3.png](img_3.png)
