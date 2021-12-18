@@ -47,4 +47,4 @@ End
 
 **If we keep all hyperparameters unchanged and only increase the number of layers, the relationship between the average MDR and FAR and the number of layers is shown in the following figure:**
 
-![img_3.png](img_3.png)
+![img.png](img.png)
